@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'echo from build/Jenkinsfile (main)'
+        sh 'echo from build/Jenkinsfile main'
         sh 'pwd'
         sh 'ls -lR ..'
 /*
